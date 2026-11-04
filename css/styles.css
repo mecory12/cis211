@@ -57,6 +57,11 @@ footer {
   padding: 1rem 0;
   border-bottom: 1px solid var(--border);
 }
+header nav{
+  display:flex;
+  justify-content: space-between;
+  margin:0px 20px;
+}
 header nav ul{
   display:flex;
   flex-direction:row;
@@ -68,6 +73,7 @@ header nav ul li{
 }
 header nav ul li a{
   text-decoration: none;
+  color: var(--text);
 }
 footer {
   border-top: 1px solid var(--border);
